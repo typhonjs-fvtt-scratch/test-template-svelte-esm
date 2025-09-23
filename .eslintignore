@@ -1,0 +1,11 @@
+.github/
+dist/
+docs/
+lang/
+packs/
+scripts/
+styles/
+src/**/*.svelte
+
+# Temporary until ESLint v9 upgrade
+vite.config.js
