@@ -18561,6 +18561,7 @@ class FoundryStyles {
    */
   static #initialize() {
     this.#initialized = true;
+    console.log(`!!! [FoundryStyles] test: Injecting Forge asset stylesheet links.`);
     const style = document.createElement("style");
     style.textContent = `
   @import "https://assets.forge-vtt.com/bazaar/modules/autoanimations/6.2.5/dist/autoanimations.css" layer(modules);
