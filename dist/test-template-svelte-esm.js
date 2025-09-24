@@ -18561,6 +18561,12 @@ class FoundryStyles {
    */
   static #initialize() {
     this.#initialized = true;
+    const style = document.createElement("style");
+    style.textContent = `
+  @import "https://assets.forge-vtt.com/bazaar/modules/autoanimations/6.2.5/dist/autoanimations.css" layer(modules);
+  @import "https://assets.forge-vtt.com/bazaar/modules/sequencer/3.6.10/dist/sequencer.css" layer(modules);
+`;
+    document.head.appendChild(style);
     const styleSheets = Array.from(document.styleSheets);
     let foundryStyleSheet;
     const moduleSheets = [];
