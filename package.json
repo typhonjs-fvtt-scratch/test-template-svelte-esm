@@ -21,6 +21,11 @@
     "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
     "eslint": "^8"
   },
+  "peerDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "svelte-preprocess": "^6",
+    "vite": "^5"
+  },
   "browserslist": [">5%", "not IE 11"],
   "scripts": {
     "build": "vite build",
