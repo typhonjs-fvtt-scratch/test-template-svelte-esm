@@ -7,3 +7,6 @@
 [![License](https://img.shields.io/badge/license-MIT-yellowgreen.svg?style=flat)](https://github.com/typhonjs-fvtt-demo/template-svelte-esm/blob/main/LICENSE)
 
 Temporary package for CORS / SecurityException testing.
+
+Manifest link:
+https://github.com//typhonjs-fvtt-scratch/test-template-svelte-esm/releases/latest/download/module.json
